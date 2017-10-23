@@ -28,6 +28,7 @@
 
 <script>
 import VuePaginator from 'vuejs-paginator'
+import { API_LOCATION } from '../../config'
 
 export default {
   data () {
@@ -35,7 +36,7 @@ export default {
       apartments: [],
       meta: {},
       limit: 10,
-      resource_url: 'http://127.0.0.1:8000/api/apartment',
+      resource_url: API_LOCATION,
       options: {
         remote_data: 'apartments',
         remote_current_page: 'meta.current_page',

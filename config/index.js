@@ -6,6 +6,7 @@
 const path = require('path')
 
 module.exports = {
+  API_LOCATION: 'http://127.0.0.1:8000/api/apartment',
   build: {
     env: require('./prod.env'),
     index: path.resolve(__dirname, '../dist/index.html'),
