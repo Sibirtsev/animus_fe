@@ -19,3 +19,9 @@ npm install
 npm run dev
 ```
 
+# Screenshots
+## List page
+![List page](screens/list.png)
+
+## Edit page
+![Edit page](screens/edit.png)
